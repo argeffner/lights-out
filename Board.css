@@ -1,0 +1,6 @@
+.lightBoard {
+  margin: 0 auto;
+  border-style: ridge;
+  border-spacing: 15px;
+  border-radius: 10px;
+}
