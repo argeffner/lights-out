@@ -67,6 +67,7 @@ function Board({ nrows=5, ncols=5, chanceLightStartsOn=0.3 }) {
       let boardCopy =  JSON.parse(JSON.stringify(oldBoard));  // use oldBoard
       // Shallow copy 
       // const boardCopy = oldBoard.map(row => [...row]);
+      // for object use helper or spread (deep copy for objects)
 
 
       // TODO: in the copy, flip this cell and the cells around it
